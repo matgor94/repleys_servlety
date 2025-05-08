@@ -12,6 +12,7 @@ public class Cookie1Set extends HttpServlet {
         Cookie cookie = new Cookie("User", "CodersLab");
         cookie.setMaxAge(86400);
         response.addCookie(cookie);
+
     }
 
     @Override
